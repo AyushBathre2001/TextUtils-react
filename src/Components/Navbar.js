@@ -7,13 +7,7 @@ export default function Navbar(props) {
             <div className="logo">
                 <h2>Textutils.</h2>
             </div>
-            <nav>
-                <ul>
-                    <li><a className={props.mode}  style = {{color:props.mode === 'light'? 'black':'white'}} href="#">Home</a></li>
-                    <li><a className={props.mode}  style = {{color:props.mode === 'light'? 'black':'white'}} href="#">About</a></li>
-                    <li><a className={props.mode}  style = {{color:props.mode === 'light'? 'black':'white'}} href="#">Contact</a></li>
-                </ul>
-            </nav>
+       
             <div className="darkmode">
                 <label className="switch">
                     <input type="checkbox" onClick={props.theme} />

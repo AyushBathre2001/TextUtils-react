@@ -84,7 +84,7 @@ export default function Textarea(props){
         <button className='butt' id='clear' onClick={clearText}>Clear</button>
       </div>
       <div className="summary">
-        <p>{text.split(' ').length - 1} words and {text.length} characters</p>
+        <p>{text.split(' ').filter((element)=>{ return element.length !== 0}).length} words and {text.length} characters</p>
         <p>{(text.split(' ').length - 1)*0.0038} minutes read</p>
       </div>
       <div className="preview">

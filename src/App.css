@@ -97,9 +97,8 @@ nav ul li a{
   width: 100%;
   min-height: 93vh;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   overflow: hidden;
 }
@@ -109,18 +108,19 @@ h1{
   margin: 10px 0px;
   font-family: 'gilroy';
   color: #333;
+  font-size: 3vw;
 }
 
 .container textarea{
   padding: 10px;
-  width: 800px;
-  height: 300px;
+  width: 50vw;
+  height: 20vw;
 }
 
 .buttons{
-  width: 600px;
-  height: 50px;
+  width: 40vw;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   padding: 10px;
@@ -130,12 +130,14 @@ h1{
   border: none;
   outline: none;
   width: 120px;
-  height: 40px;
+  height:40px;
   background-color: rgb(141 141 138);
   color: white;
   font-size: 15px;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 5px;
+  margin-left: 2px;
 }
 
 .butt:hover{
@@ -157,7 +159,7 @@ h1{
   margin: 0;
 }
 .preview{
-  width: 800px;
+  width: 70vw;
 
 }
 
